@@ -27,3 +27,8 @@ git revert（安全地后悔）
 
 git remote add origin https://github.com/becblue/01_Control_Handle_485_rx_1.git
 git push -u origin master
+
+要将项目回滚到特定的提交状态（e7321c40635d89199a799aa02dbe32eb92c2df46），您可以使用以下Git命令：
+
+# 方法1：使用git reset（会丢失当前未提交的更改）
+git reset --hard e7321c40635d89199a799aa02dbe32eb92c2df46
